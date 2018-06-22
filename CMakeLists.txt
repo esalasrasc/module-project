@@ -1,1 +1,1 @@
-ADD_EXECUTABLE(student student.h student.cpp)
+ADD_LIBRARY(student student.h student.cpp)

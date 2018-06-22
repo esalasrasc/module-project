@@ -5,7 +5,7 @@ Student::Student(std::string name, bool present): m_name(name), m_present(presen
 
 }
 
-std::string Student::name() const
+std::string Student::name() const //! Nom de l'étudiant
 {
     return m_name;
 }
@@ -15,7 +15,7 @@ void Student::setName(const std::string &name)
     m_name = name;
 }
 
-bool Student::present() const
+bool Student::present() const //! présence ou non
 {
     return m_present;
 }

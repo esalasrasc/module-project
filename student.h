@@ -10,9 +10,9 @@ public:
     Student(std::string name, bool present = true);
 
     std::string name() const;
-    void setName(const std::string &name);
+    void setName(const std::string &name);//! Nom de l'etudiant
 
-    bool present() const;
+    bool present() const; //! Presence ou non
     void setPresent(bool present);
 
     std::string print() const;

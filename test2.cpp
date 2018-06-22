@@ -26,7 +26,7 @@ int main(int argc, char* argv[])
   int nb_present = Student::nb_presents( students );
 
   if( nb_present == 8 ){
-      return -1;
+      return 0;
   }else{
       return -1;
   }

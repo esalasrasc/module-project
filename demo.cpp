@@ -4,6 +4,7 @@
 #include <vector>
 #include <iostream>
 
+//! main programm
 int main(int argc, char* argv[])
 {
   std::vector<Student> students;
@@ -23,7 +24,7 @@ int main(int argc, char* argv[])
   students.push_back( Student("Laure") );
   students.push_back( Student("Siddharth") );
 
-  int number_of_students = students.size();
+  int number_of_students = students.size(); //! Nombre d'etudiant
   std::cout << "Number of students: " << number_of_students << std::endl;
   for(int i=0; i<number_of_students;i++){
     std::cout << students.at(i).print() << std::endl;
